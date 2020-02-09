@@ -31,4 +31,12 @@ defmodule Identicon do
     row ++ [x2, x1]
   end
 
+  def filter_odd_squared(%Identicon.Image{grid: grid} = image) do
+    grid = Enum.filter grid, fn ({code, _index}) ->
+      rem(code, 2) == 0
+    end
+
+    %Identicon.Image{image | grid: grid}
+  end
+
 end
