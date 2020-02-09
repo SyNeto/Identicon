@@ -10,6 +10,7 @@ defmodule Identicon do
     |> build_grid
     |> filter_odd_squared
     |> build_pixel_map
+    |> draw_image
   end
 
   def hash_input(input) do
