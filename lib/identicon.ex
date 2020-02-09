@@ -65,4 +65,8 @@ defmodule Identicon do
     :egd.render(image)
   end
 
+  def save_image(image_binary, input) do
+    File.write("#{input}.png", image_binary)
+  end
+
 end
