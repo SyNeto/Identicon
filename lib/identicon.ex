@@ -2,7 +2,7 @@ defmodule Identicon do
   @moduledoc """
   Documentation for `Identicon`.
 
-  Elixir Library that try to emularte how github create avatars.
+  Elixir Library that try to emulate how github create avatars.
 
   ## Examples
       iex> Identicon.main("syneto")
