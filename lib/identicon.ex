@@ -11,6 +11,7 @@ defmodule Identicon do
     |> filter_odd_squared
     |> build_pixel_map
     |> draw_image
+    |> save_image(input)
   end
 
   def hash_input(input) do
