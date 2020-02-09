@@ -4,7 +4,11 @@ defmodule Identicon do
   """
 
   def main(input) do
-    input |> hash_input |> pick_color |> build_grid
+    input
+    |> hash_input
+    |> pick_color
+    |> build_grid
+    |> filter_odd_squared
   end
 
   def hash_input(input) do
