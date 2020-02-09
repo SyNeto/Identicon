@@ -9,6 +9,7 @@ defmodule Identicon do
     |> pick_color
     |> build_grid
     |> filter_odd_squared
+    |> build_pixel_map
   end
 
   def hash_input(input) do
