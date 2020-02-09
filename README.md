@@ -1,6 +1,6 @@
 # Identicon
 
-Elixir library that emulates how github generates identicons for users thar hasn't select a profile image
+Elixir library that emulates how github generates identicons for users that hasn't select a profile image
 
 ## Installation
 
