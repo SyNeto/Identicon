@@ -4,7 +4,7 @@ defmodule Identicon do
   """
 
   def main(input) do
-    input |> hash_input
+    input |> hash_input |> pick_color
   end
 
   def hash_input(input) do
