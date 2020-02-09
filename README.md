@@ -1,6 +1,6 @@
 # Identicon
 
-**TODO: Add description**
+Elixir library that emulates how github generates identicons for users thar hasn't select a profile image
 
 ## Installation
 
